@@ -1,0 +1,8 @@
+# Audio
+vendor.voice.path.for.pcm.voip=true
+
+# Bluetooth
+bluetooth.device.default_name=Galaxy A73 5G
+
+# Keymaster
+ro.hardware.keystore_desede=true
