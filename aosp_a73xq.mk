@@ -43,6 +43,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# Recovery
+TARGET_USES_AOSP_RECOVERY := true
+
 # Vendor fingerprint
 BUILD_FINGERPRINT := "samsung/a73xqxx/a73xq:11/RP1A.200720.012/A736BXXU5CWH7:user/release-keys"
 PRIVATE_BUILD_DESC := "a73xqxx-user 11 RP1A.200720.012 A736BXXU5CWH7 release-keys"
