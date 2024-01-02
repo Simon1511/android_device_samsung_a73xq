@@ -80,9 +80,6 @@ mc44s803.ko
 sec_secure_touch.ko
 nfc_sec.ko
 qca_cld3_wlan.ko
-qca_cld3_qca6750.ko
-qca_cld3_wlan.ko
-qca_cld3_qca6750.ko
 rmnet_core.ko
 rmnet_ctl.ko
 rmnet_offload.ko
