@@ -1,4 +1,4 @@
-# All blobs are from A736BXXU5CWH7 (T), unless pinned
+# All blobs are from A736BXXS6DWL2 (U), unless pinned
 
 # Audio
 vendor/lib/hw/audio.primary.lahaina.so
@@ -28,7 +28,7 @@ vendor/firmware/bt_nvm_loading.xml
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.override.so|9b40fa3ea7fdd1c6b5663ea283469e5bb537a9dd
+vendor/lib64/hw/com.qti.chi.override.so|11f717004181571736034b073ebcd9eaa3496e24
 vendor/lib/camera/com.qti.eeprom.truly_cmb433.so
 vendor/lib/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib/camera/com.samsung.sensor.gc5035.so
@@ -353,3 +353,14 @@ vendor/firmware/wlan/rev5/wpss.b05|cf2724bab1a2e349e3ff0f9773a03221bf3f586f
 vendor/firmware/wlan/rev5/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
 vendor/firmware/wlan/rev5/wpss.b07|bcb23af60ccbc1711b58c131aefaafe15a162d65
 vendor/firmware/wlan/rev5/wpss.mdt|4ce7cb7b78a5f642def1d61e50d0aa6581ff2a9d
+
+# Wifi firmware (bootloader revision 6) - from A736BXXS6DWL2 (U)
+vendor/firmware/wlan/rev6/wpss.b00|cacb157ada108966547ba56ce85b18b5f4375b76
+vendor/firmware/wlan/rev6/wpss.b01|bbb920b6b767cc50eb47e7a558f9a33a994fbc9e
+vendor/firmware/wlan/rev6/wpss.b02|9e181ded637329fc207048fc49742cd1f94fc69e
+vendor/firmware/wlan/rev6/wpss.b03|53da0f973a5638b78ff62bcdfd8ddb52585c5850
+vendor/firmware/wlan/rev6/wpss.b04|c907076779e7726c18739dae823859eec1dac25d
+vendor/firmware/wlan/rev6/wpss.b05|3cbbcb2923dbd6423df3a1ddbf984646d894faf7
+vendor/firmware/wlan/rev6/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
+vendor/firmware/wlan/rev6/wpss.b07|a5059d526e0897c81317d8a31b64b24330ef9b08
+vendor/firmware/wlan/rev6/wpss.mdt|0c2d9481221b2e0bdac928cbe4a237556c5fe763
