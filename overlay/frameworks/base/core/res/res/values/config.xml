@@ -41,13 +41,6 @@
          -->
     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -14 V 35 H 14 V 0 H 0 Z @dp</string>
 
-    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
-    <integer-array name="config_udfps_sensor_props">
-        <item>540</item>
-        <item>2170</item>
-        <item>114</item>
-    </integer-array>
-
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
 
