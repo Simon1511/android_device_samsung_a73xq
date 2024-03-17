@@ -17,4 +17,4 @@ export DEVICE=a73xq
 export DEVICE_COMMON=sm7325-common
 export VENDOR=samsung
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
