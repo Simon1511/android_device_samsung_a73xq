@@ -364,3 +364,14 @@ vendor/firmware/wlan/rev6/wpss.b05|3cbbcb2923dbd6423df3a1ddbf984646d894faf7
 vendor/firmware/wlan/rev6/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
 vendor/firmware/wlan/rev6/wpss.b07|a5059d526e0897c81317d8a31b64b24330ef9b08
 vendor/firmware/wlan/rev6/wpss.mdt|0c2d9481221b2e0bdac928cbe4a237556c5fe763
+
+# Wifi firmware (bootloader revision 7) - from A736BXXS7DXD5 (U)
+vendor/firmware/wlan/rev6/wpss.b00|4c7643e6826b0065fdc7eb9a48a8c3d3ff172cce
+vendor/firmware/wlan/rev6/wpss.b01|9b4646f694ee5a06506016b6022ddf7ab912c746
+vendor/firmware/wlan/rev6/wpss.b02|30b71fe8d1d25fb3f540a418deeb47f853d8d094
+vendor/firmware/wlan/rev6/wpss.b03|21c4f4c69d818c8f968bf380115041ab304f8dd8
+vendor/firmware/wlan/rev6/wpss.b04|135fffcac148bb0cc319d92557e00e90485d4f1f
+vendor/firmware/wlan/rev6/wpss.b05|761c3bd6d51ae25a419339aa3f1d4411d0585d20
+vendor/firmware/wlan/rev6/wpss.b06|7e68827f93f83f312ab0bc02af48383e6defa707
+vendor/firmware/wlan/rev6/wpss.b07|6a8274b400850bb3a52d1b581e61200c77a9f8c1
+vendor/firmware/wlan/rev6/wpss.mdt|1dba2aa21f51f24225c486e2677949de763cbc12
