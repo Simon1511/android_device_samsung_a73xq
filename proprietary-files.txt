@@ -1,4 +1,4 @@
-# All blobs are from A736BXXS6DWL2 (U), unless pinned
+# All blobs are from A736BXXS8EXE5 (U), unless pinned
 
 # Audio
 vendor/lib/hw/audio.primary.lahaina.so
@@ -303,12 +303,6 @@ vendor/firmware/tsp_synaptics/s3908_a73xq_boe.bin
 vendor/firmware/tsp_synaptics/s3908_a73xq_csot.bin
 vendor/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin
 vendor/firmware/tsp_synaptics/s3908_a73xq_sdc.bin
-
-# Wifi firmware
-vendor/firmware/qca6750/bdwlan.elf1
-vendor/firmware/qca6750/bdwlan.elf2
-vendor/firmware/qca6750/bdwlan.elf
-vendor/firmware/qca6750/bdwlan.elf10
 
 # Wifi firmware (bootloader revision 2) - from A736BXXU2BVK2 (T)
 vendor/firmware/wpss.b00|bbbf98507f63f2fbc6f04ed5328d88190de9f124
