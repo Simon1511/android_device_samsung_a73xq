@@ -55,6 +55,8 @@
         <device name="SND_DEVICE_OUT_WIFI_CALL_SPEAKER_MON_EVS" acdb_id="66"/>
         <device name="SND_DEVICE_OUT_VOIP_COMM_SPEAKER_MON" acdb_id="66"/>
         <device name="SND_DEVICE_OUT_VOIP_COMM_SPEAKER_MON_ALL" acdb_id="69"/>
+        <device name="SND_DEVICE_IN_REC_MAIN_MIC" acdb_id="153"/>
+        <device name="SND_DEVICE_IN_VR_MAIN_MIC" acdb_id="164"/>
     </acdb_ids>
     <backend_names>
         <device name="SND_DEVICE_OUT_HANDSET" interface="QUAT_TDM_RX_0"/>
