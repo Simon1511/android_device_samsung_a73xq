@@ -45,5 +45,5 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Vendor fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint="samsung/a73xqxx/a73xq:11/RP1A.200720.012/A736BXXS8EXE5:user/release-keys" \
-    BuildDesc="a73xqxx-user 11 RP1A.200720.012 A736BXXS8EXE5 release-keys"
+    BuildFingerprint="samsung/a73xqxx/a73xq:11/RP1A.200720.012/A736BXXUAEXK4:user/release-keys" \
+    BuildDesc="a73xqxx-user 11 RP1A.200720.012 A736BXXUAEXK4 release-keys"

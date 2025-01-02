@@ -1,4 +1,4 @@
-# All blobs are from A736BXXS8EXE5 (U), unless pinned
+# All blobs are from A736BXXUAEXK4 (U), unless pinned
 
 # Audio
 vendor/lib/hw/audio.primary.lahaina.so
@@ -28,7 +28,7 @@ vendor/firmware/bt_nvm_loading.xml
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.override.so|11f717004181571736034b073ebcd9eaa3496e24
+vendor/lib64/hw/com.qti.chi.override.so|364c1a1ae9ee8bce1422219cf55cec648141f85c
 vendor/lib/camera/com.qti.eeprom.truly_cmb433.so
 vendor/lib/camera/com.qti.eeprom.irs2381c_polar.so
 vendor/lib/camera/com.samsung.sensor.gc5035.so

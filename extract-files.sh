@@ -10,8 +10,8 @@ function blob_fixup() {
         vendor/lib64/hw/com.qti.chi.override.so)
             xxd -p "${2}" | tr -d \\n > "${2}".hex
             # NOP CONNECT_RILD
-            sed -i "s/800640f9e17800948001003482dbfff0c3ddff90a5dcffb0e603002a/1f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d5/g" "${2}".hex
-            sed -i "s/4238089163f00891a5241391a4118052e0031f2a210080528dfeff97800640f9/1f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d5800640f9/g" "${2}".hex
+            sed -i "s/800640f9e17800948001003482dbffd0a3ddfff0a5dcff90e603002a/1f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d5/g" "${2}".hex
+            sed -i "s/420c0e9163ec0f91a5201a91a4118052e0031f2a210080528dfeff97800640f9/1f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d5800640f9/g" "${2}".hex
             xxd -r -p "${2}".hex > "${2}"
             rm "${2}".hex
             ;;
