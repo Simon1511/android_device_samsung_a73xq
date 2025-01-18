@@ -280,6 +280,12 @@ vendor/firmware/tsp_synaptics/s3908_a73xq_csot.bin
 vendor/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin
 vendor/firmware/tsp_synaptics/s3908_a73xq_sdc.bin
 
+# Touchscreen firmware (recovery)
+vendor/firmware/tsp_synaptics/s3908_a73xq_boe.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_a73xq_boe.bin
+vendor/firmware/tsp_synaptics/s3908_a73xq_csot.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_a73xq_csot.bin
+vendor/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin
+vendor/firmware/tsp_synaptics/s3908_a73xq_sdc.bin:recovery/root/vendor/firmware/tsp_synaptics/s3908_a73xq_sdc.bin
+
 # Wifi firmware (bootloader revision 2) - from A736BXXU2BVK2 (T)
 vendor/firmware/wpss.b00|bbbf98507f63f2fbc6f04ed5328d88190de9f124
 vendor/firmware/wpss.b01|c324e70bfd4340774fe094ca662d809872f6bd30
