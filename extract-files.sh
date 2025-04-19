@@ -8,12 +8,20 @@
 function blob_fixup() {
     case "${1}" in
         vendor/lib64/hw/com.qti.chi.override.so)
+            [ "$2" = "" ] && return 0
             xxd -p "${2}" | tr -d \\n > "${2}".hex
             # NOP CONNECT_RILD
             sed -i "s/800640f9e17800948001003482dbffd0a3ddfff0a5dcff90e603002a/1f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d5/g" "${2}".hex
             sed -i "s/420c0e9163ec0f91a5201a91a4118052e0031f2a210080528dfeff97800640f9/1f2003d51f2003d51f2003d51f2003d51f2003d51f2003d51f2003d5800640f9/g" "${2}".hex
             xxd -r -p "${2}".hex > "${2}"
             rm "${2}".hex
+            ;;
+        vendor/lib64/nfc_nci_nxpsn.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "libbase.so" "libbase-v33.so" "${2}"
+            ;;
+        *)
+            return 1
             ;;
     esac
 }
